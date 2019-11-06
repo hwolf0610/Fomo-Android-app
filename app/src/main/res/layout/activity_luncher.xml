@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/splash">
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp">
+        <ImageView
+            android:id="@+id/slide_image1"
+            android:src="@drawable/ic_slide_on"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:layout_marginLeft="35dp"
+            android:id="@+id/slide_image2"
+            android:layout_toRightOf="@+id/slide_image1"
+            android:src="@drawable/ic_slide_off"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:layout_marginLeft="35dp"
+            android:id="@+id/slide_image3"
+            android:layout_toRightOf="@+id/slide_image2"
+            android:src="@drawable/ic_slide_off"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:layout_marginLeft="35dp"
+            android:id="@+id/slide_image4"
+            android:layout_toRightOf="@+id/slide_image3"
+            android:src="@drawable/ic_slide_off"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <Button
+            android:onClick="gosignup"
+            android:text="@string/createAcount_button"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_weight="1"
+            android:background="@drawable/roundbuton1"
+            android:textColor="@color/button_text_color"
+            android:layout_marginBottom="@dimen/margin_size"
+            android:layout_marginTop="@dimen/margin_size"
+            android:layout_marginLeft="@dimen/margin_button_size"
+            android:layout_marginRight="@dimen/margin_button_size"/>
+        <Button
+            android:textColor="@color/login_textcolor"
+            android:onClick="gosignin"
+            android:text="@string/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/margin_size"
+            android:layout_marginTop="@dimen/margin_size"
+            android:layout_marginLeft="@dimen/margin_loginbutton_size"
+            android:layout_marginRight="@dimen/margin_loginbutton_size"
+            android:background="@drawable/roundbutton2"
+            android:backgroundTint="@color/login_textcolor"/>
+    </LinearLayout>
+
+
+</LinearLayout>

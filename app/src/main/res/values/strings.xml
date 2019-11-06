@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Fomo</string>
+    <string name="createAcount_button">Create Acount</string>
+    <string name="login_button">Already a Member? Login Now!</string>
+    <string name="login_text">Sign In</string>
+    <string name="forget_password_text">Back to Login / Register</string>
+    <string name="hint_text_username">Username, Email or Phone</string>
+    <string name="hint_text_password">Password</string>
+    <string name="set_add_button">Add New Photo</string>
+
+    <string name="fristname_text">Frist Name</string>
+    <string name="Lastname_text">Last Name</string>
+    <string name="username_text">User Name</string>
+    <string name="Email_address_text">Email Address</string>
+    <string name="Password_text">Password</string>
+    <string name="Confirm_Password_text">Confirm Password</string>
+    <string name="Mobile_number_text">Mobile</string>
+    <string name="Bio_text">Bio</string>
+    <string name="Industry_text">Industry</string>
+    <string name="fristname_hint_text">Thomas</string>
+    <string name="lastname_hint_text">Becker</string>
+    <string name="username_hint_text">TomBeck44</string>
+    <string name="email_address_hint_text">beck@gmail.com</string>
+    <string name="password_hint_text">******</string>
+    <string name="confirm_password_hint_text">******</string>
+    <string name="mobile_number_hint_text">0407 293 992</string>
+    <string name="Bio_hint_text">A little bit about you</string>
+    <string name="Industry_hint_text">Sport</string>
+    <string name="create_acount_button_text">Create Account</string>
+
+
+    <string name="red">Create Account</string>
+    <string name="blue">Create Account</string>
+    <string name="green">Create Account</string>
+    <string name="orange">Create Account</string>
+
+    <string name="flow1">Instant notifications when people you follow are on radio or TV</string>
+    <string name="flow2">flow2</string>
+    <string name="flow3">flow3</string>
+    <string name="flow4">flow4</string>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+</resources>

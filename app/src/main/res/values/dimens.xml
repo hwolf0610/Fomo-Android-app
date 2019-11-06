@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="text_size">20dp</dimen>
+    <dimen name="text_center_size">40dp</dimen>
+    <dimen name="margin_size">15dp</dimen>
+    <dimen name="margin_button_size">40dp</dimen>
+    <dimen name="margin_loginbutton_size">74dp</dimen>
+    <dimen name="padding_text">10dp</dimen>
+    <dimen name="padding_layout">5dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+
+</resources>

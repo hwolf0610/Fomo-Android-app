@@ -1,0 +1,149 @@
+{
+  "industry" : [ {
+    "detail" : [ {
+      "code" : "AFL",
+      "id" : 1,
+      "teams" : [ "Brisbane Lions", "Geelong Cats", "West Coast Eagles", "Richmond", "Collingwood", "GWS Giants", "Essendon", "Western Bulldogs", "Hawthorn", "Adelaide Crows", "Port Adelaide", "North Melbourne", "Fremantle", "St Kilda", "Sydney Swans", "Carlton", "Melbourne", "Gold Coast Suns", "Other" ]
+    }, {
+      "code" : "Cricket",
+      "id" : 2
+    }, {
+      "code" : "NRL",
+      "id" : 3,
+      "teams" : [ "Storm", "Roosters", "Raiders", "Sea Eagles", "Rabbitohs", "Eels", "Broncos", "Sharks", "Panthers", "Knights", "Wests Tigers", "Warriors", "Bulldogs", "Dragons", "Cowboys", "Titans", "Other" ]
+    }, {
+      "code" : "Soccer",
+      "id" : 4
+    }, {
+      "code" : "Rugby",
+      "id" : 5
+    }, {
+      "code" : "Horse Racing",
+      "id" : 6
+    } ],
+    "id" : 1,
+    "type" : "Sport"
+  }, {
+    "id" : 2,
+    "type" : "Business"
+  }, {
+    "id" : 3,
+    "type" : "Music/Film/TV"
+  }, {
+    "detail" : [ {
+      "code" : "Liberal",
+      "id" : 1,
+      "teams" : [ "Federal", "State", "Local", "Other" ]
+    }, {
+      "code" : "Labor",
+      "id" : 2,
+      "teams" : [ "Federal", "State", "Local", "Other" ]
+    }, {
+      "code" : "Nationals",
+      "id" : 3,
+      "teams" : [ "Federal", "State", "Local", "Other" ]
+    }, {
+      "code" : "Greens",
+      "id" : 4,
+      "teams" : [ "Federal", "State", "Local", "Other" ]
+    }, {
+      "code" : "Other",
+      "id" : 1,
+      "teams" : [ "Federal", "State", "Local", "Other" ]
+    } ],
+    "id" : 4,
+    "type" : "Politics"
+  }, {
+    "id" : 5,
+    "type" : "Other"
+  } ],
+  "notification" : [ {
+    "medium" : [ {
+      "channel" : [ {
+        "channel_id" : 1,
+        "link" : "http://melb3awvid-lh.akamaihd.net/i/melbournevid_1@109381/master.m3u8",
+        "type" : "3AW"
+      }, {
+        "channel_id" : 2,
+        "link" : "https://d2boy136o8iqsz.cloudfront.net/playlist.m3u8",
+        "type" : "SEN"
+      }, {
+        "channel_id" : 3,
+        "link" : "http://www.abc.net.au/res/streaming/audio/mp3/local_melbourne.pls",
+        "type" : "ABC Radio Melbourne"
+      }, {
+        "channel_id" : 4,
+        "link" : "http://www.abc.net.au/res/streaming/audio/mp3/radio_national.pls",
+        "type" : "ABC Radio National"
+      }, {
+        "channel_id" : 5,
+        "link" : "http://stream.scahw.com.au/live/3mmm_32.stream/playlist.m3u8",
+        "type" : "TripleM"
+      }, {
+        "channel_id" : 6,
+        "link" : "http://www.abc.net.au/res/streaming/audio/mp3/triplej.pls",
+        "type" : "TripleJ"
+      }, {
+        "channel_id" : 6,
+        "link" : "http://stream.scahw.com.au/live/3fox_128.stream/playlist.m3u8",
+        "type" : "Fox"
+      }, {
+        "channel_id" : 7,
+        "link" : "http://stream.scahw.com.au/live/4gld.stream/playlist.m3u8",
+        "type" : "Gold"
+      }, {
+        "channel_id" : 8,
+        "type" : "Nova"
+      }, {
+        "channel_id" : 9,
+        "type" : "Other"
+      } ],
+      "medium_id" : 1,
+      "type" : "Radio"
+    }, {
+      "channel" : [ {
+        "channel_id" : 10,
+        "link" : "https://iview.abc.net.au/show/abc-vic-live-stream",
+        "type" : "ABC"
+      }, {
+        "channel_id" : 11,
+        "link" : "https://www.freeview.com.au/watch-tv/channel/3",
+        "type" : "SBS"
+      }, {
+        "channel_id" : 12,
+        "link" : "https://7plus.com.au/live-tv",
+        "type" : "Channel 7"
+      }, {
+        "channel_id" : 13,
+        "link" : "https://www.9now.com.au/live/channel-9",
+        "type" : "Channel 9"
+      }, {
+        "channel_id" : 14,
+        "link" : "https://10play.com.au/live/ten",
+        "type" : "Channel 10"
+      } ],
+      "medium_id" : 2,
+      "type" : "Free to Air TV"
+    }, {
+      "channel" : [ {
+        "channel_id" : 15,
+        "link" : "https://watch.foxtel.com.au/app/#/live/sky",
+        "type" : "Sky News"
+      }, {
+        "channel_id" : 16,
+        "link" : "https://watch.foxtel.com.au/app/#/live/fax",
+        "type" : "Fox Sport"
+      } ],
+      "medium_id" : 3,
+      "type" : "Pay TV"
+    }, {
+      "medium_id" : 4,
+      "type" : "Other"
+    } ],
+    "type" : "Interview",
+    "type_id" : 1
+  }, {
+    "type" : "Other",
+    "type_id" : 2
+  } ]
+}

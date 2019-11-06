@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:onClick="changeview1"
+        android:id="@+id/imv1"
+        android:layout_width="0dp"
+        android:layout_height="61px"
+        android:layout_weight="1"
+        android:src="@drawable/ic_home_on"/>
+    <ImageView
+        android:onClick="changeview2"
+        android:id="@+id/imv2"
+        android:layout_width="0dp"
+        android:layout_height="61px"
+        android:layout_weight="1"
+        android:src="@drawable/ic_charting_off"/>
+    <ImageView
+        android:onClick="changeview3"
+        android:id="@+id/imv3"
+        android:layout_width="0dp"
+        android:layout_height="61px"
+        android:layout_weight="1"
+        android:src="@drawable/ic_search_off"/>
+    <ImageView
+        android:onClick="changeview4"
+        android:id="@+id/imv4"
+        android:layout_width="0dp"
+        android:layout_height="61px"
+        android:layout_weight="1"
+        android:src="@drawable/ic_flag_off"/>
+    <ImageView
+        android:onClick="changeview5"
+        android:id="@+id/imv5"
+        android:layout_width="0dp"
+        android:layout_height="61px"
+        android:layout_weight="1"
+        android:src="@drawable/ic_user_off"/>
+
+</LinearLayout>
